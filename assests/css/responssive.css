@@ -1,0 +1,148 @@
+/* respossividade*/
+
+@media screen and (min-width: 390px){
+    .titleArea1 {
+    width: 14rem;
+    font-size: 3rem;
+    }
+    .descArea1{
+        width: 26rem;
+    }
+
+    .area2{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .area1{
+        align-items: center;
+    }
+    .titleArea1{
+        width: 36rem;
+        font-size: 3rem;
+    }
+    .descArea1{
+        width: 30rem;
+    }
+    .buttonsArea1{
+        flex-direction: column;
+    }
+    .button1Area1{
+        width: 17rem;
+    }
+    .area2{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgArea2 {
+        width: 36rem;
+        height: 22rem;
+    }
+    .textArea2 {
+        display: flex;
+        flex-direction: column;
+        height: 14rem;        
+        width: 30rem;
+        text-align: start;
+    
+    }
+    .titleArea2{
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+    .discArea2{
+        margin-left: 1.5rem;
+    }
+    .imgArea3{
+        width: 30rem;
+    }
+    .titleArea3{
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+    .discArea3{
+        margin-left: 1.5rem;
+    }
+    
+
+    
+
+}
+
+@media screen and (min-width: 992px){
+    .descArea1{
+        width: 58rem;
+    }
+    .buttonsArea1{
+        flex-direction: row;
+    }
+    .area2{
+        grid-template-columns: 38rem 22rem;
+    }
+    .imgArea2{
+        width: 38rem;
+        height: 24.6rem;
+    }
+    .textArea2{
+        width: 22rem;
+        height: 24.6rem;
+    }
+    .titleArea2{
+        font-size: 2.5rem;
+    }
+    
+    /* Area-3 */
+
+    .area3{
+        grid-template-columns: 22rem 38rem;
+    }
+    .imgArea3{
+        width: 38rem;
+        height: 24.6rem;
+        order: 2;
+    }
+    .textArea3{
+        width: 22rem;
+        height: 24.6rem;
+        order: 1;
+    }
+    .titleArea3{
+        font-size: 2.5rem;
+    }
+
+    /* area 4 */
+    .area4{
+        grid-template-columns: 38rem 22rem;
+    }
+    .imgArea4{
+        width: 38rem;
+        height: 24.6rem;
+    }
+    .textArea4{
+        width: 22rem;
+        height: 24.6rem;
+    }
+    .titleArea4{
+        font-size: 2.5rem;
+    }
+
+    /* area 5 */
+
+    .imgArea5{
+        width: 49rem;
+        height: 31.75rem;
+    }
+    .textArea5{
+        width: 50rem;
+        height: 8rem;
+    }
+    .titleArea5{
+        font-size: 2.5rem;
+    }
+    
+}   

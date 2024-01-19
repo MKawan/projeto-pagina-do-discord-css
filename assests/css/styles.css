@@ -1,0 +1,265 @@
+/* CSS_Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+}
+
+.content{
+    display: grid;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 2.5rem;
+}
+/* Area 1 */
+.area1{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    flex-shrink: 0;
+    background: url('../img/Header\ Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 1.5rem;
+}
+.titleArea1{
+    color: #FFF;
+    width: 12rem;
+    text-align: center;
+    font-family: "Luckiest Guy";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.descArea1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    width: 20rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttonsArea1{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.button1Area1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    background: #FFF;
+}
+.button1Area1 span{
+    color: #23272A;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button2Area1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17.5rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    background: #23272A;
+}
+.button2Area1 span{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.area2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imgArea2{
+    width: 23rem;
+    height: 13rem;
+    background: url('../img/Section\ Image.png');
+    background-size: cover;
+}
+.textArea2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    gap: 1rem;
+}
+.titleArea2{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discArea2{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Area-3 */
+.area3{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imgArea3{
+    width: 23rem;
+    height: 13rem;
+    background: url('../img/Section\ Image\ \(1\).png');
+    background-size: cover;
+}
+.textArea3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 22rem;
+    height: 9rem;
+    gap: 1rem;
+}
+.titleArea3{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discArea3{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Area-4 */
+.area4{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imgArea4{
+    width: 23rem;
+    height: 13rem;
+    background: url('../img/Section\ Image\ \(2\).png');
+    background-size: cover;
+}
+.textArea4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 22rem;
+    height: 9rem;
+    gap: 1rem;
+}
+.titleArea4{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discArea4{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.area5{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgArea5{
+    width: 22rem;
+    height: 14rem;
+    background: url('../img/Section\ Image\ \(3\).png');
+    background-size: cover;
+}
+.textArea5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 22rem;
+    height: 12rem;
+    gap: 1rem;
+}
+.titleArea5{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discArea5{
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.area6{
+    display: flex;
+    width: 100%;
+    height: 8.375rem;
+    padding: 2.1875rem 0rem 2.25rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #23272A;
+    z-index: -9999;
+}
